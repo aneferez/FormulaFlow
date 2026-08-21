@@ -1,0 +1,31 @@
+{
+  "name": "formulaflow",
+  "version": "0.9.0",
+  "description": "CBSE-focused formula revision with class-wise, subject-wise, and chapter-wise structure, variables, units, usage notes, examples, and source-aware syllabus handling.",
+  "author": {
+    "name": "AneFerez",
+    "url": "https://github.com/aneferez"
+  },
+  "homepage": "https://github.com/aneferez/FormulaFlow",
+  "repository": "https://github.com/aneferez/FormulaFlow",
+  "license": "MIT",
+  "keywords": ["education", "cbse", "ncert", "formula", "revision", "student", "agent-skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FormulaFlow",
+    "shortDescription": "CBSE formula revision with source-aware syllabus handling",
+    "longDescription": "FormulaFlow helps students revise formulas by class, subject, chapter, or topic with variable definitions, units, conditions, examples, quick revision blocks, and explicit CBSE/NCERT source discipline.",
+    "developerName": "AneFerez",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/aneferez/FormulaFlow",
+    "privacyPolicyURL": "https://github.com/aneferez/FormulaFlow/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/aneferez/FormulaFlow/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Give me the formulas for Class 10 Maths chapter Circles.",
+      "Make a revision formula sheet for Class 12 Physics Current Electricity.",
+      "Explain when to use these formulas and include units."
+    ],
+    "screenshots": []
+  }
+}
